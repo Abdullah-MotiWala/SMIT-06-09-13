@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>form</title>
+</head>
+
+<body>
+
+
+
+    <form action="./thankYou.html">
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label>UserName: <input type="text" placeholder="username" required /></label>
+            <br>
+            <br>
+            <label for="pass">Password: </label> <input type="password" placeholder="password" required id="pass">
+            <br>
+            <br>
+            <label>
+                Admin: <input type="radio" name="type" id="" value="admin" required>
+            </label>
+            <label>
+                Co-ordinator: <input type="radio" name="type" id="" value="co">
+            </label>
+            <label>
+                Client: <input type="radio" name="type" id="" value="client">
+            </label>
+            <br>
+            <br>
+            <!-- <select name="city" id="">
+                <option value="khi">Karachi</option>
+                <option value="lhr">Lahore</option>
+                <option value="isl">Islamabad</option>
+            </select> -->
+            <textarea name="" id=""></textarea>
+        </fieldset>
+        <fieldset>
+            <div>
+
+                <label>UserName: <input type="text" placeholder="username" required /></label>
+                <br>
+                <br>
+                <label for="pass">Password: </label> <input type="password" placeholder="password" required id="pass">
+                <br>
+                <br>
+                <label>
+                    Admin: <input type="radio" name="type" id="" value="admin" required>
+                </label>
+            </div>
+
+            <label>
+                Co-ordinator: <input type="radio" name="type" id="" value="co">
+            </label>
+            <label>
+                Client: <input type="radio" name="type" id="" value="client">
+            </label>
+            <br>
+            <br>
+            <select name="city" id="">
+                <option value="khi">Karachi</option>
+                <option value="lhr">Lahore</option>
+                <option value="isl">Islamabad</option>
+            </select>
+        </fieldset>
+        <input type="submit" value="Login">
+    </form>
+
+    <br><br><br><br><br>
+
+
+    <!-- <br><br><br> -->
+    <form action="./thankYou.html" method="get">
+        <fieldset>
+            <legend>Personal Details</legend>
+
+            <label>Name:
+
+                <input type="text" placeholder="John Doe" maxlength="5" required name="first-name" />
+
+            </label>
+
+
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password">
+        </fieldset>
+        <fieldset>
+            <legend>Other Details</legend>
+
+            <input type="date" name="dob">
+            <input type="datetime-local" name="class-start">
+            <input type="email" name="email" placeholder="Enter Your email">
+            <label for="cnic">
+                <img src="upload.png" width="100" alt="">
+                <!-- Upload Cnic -->
+
+            </label>
+            <input type="file" name="cnic" id="cnic" accept=".jpg,.png " hidden>
+            <input type="hidden" name="gender">
+            <input type="number" name="contact">
+            <input type="range" step="10" min="50" max="70" name="range">
+
+            <input type="reset" value="update">
+            <input type="button" value="Call">
+            <input type="search">
+            <input type="url" placeholder="url">
+            <input type="submit">
+
+
+            <input type="radio" value="female" name="gender">
+            <input type="radio" value="male" name="gender">
+
+
+            <input type="checkbox" value="matric" name="education">
+            <input type="checkbox" value="inter" name="education">
+            <input type="checkbox" value="graduate" name="education">
+
+            <select name="city" multiple>
+                <option value="khi">Karachi</option>
+                <option value="lhr">Lahore</option>
+                <option value="isl" selected>Islamabad</option>
+            </select>
+        </fieldset>
+
+    </form>
+
+
+
+</body>
+
+</html>
