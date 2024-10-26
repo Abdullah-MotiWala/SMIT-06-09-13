@@ -1,0 +1,51 @@
+/* p {
+  background-color: brown;
+}
+
+#test {
+  background-color: blue;
+}
+
+.rollNo {
+  background-color: orange;
+}
+
+h1.rollNo {
+  background-color: pink;
+}
+
+div#rollNumbers > p.rollNo {
+  background-color: blueviolet;
+} */
+/* div#main-wrapper p.element {
+  background-color: green;
+}
+div#main-wrapper > p.element {
+  background-color: orange;
+} */
+
+/* p#pakistan + p {
+  background-color: yellow;
+}
+
+p#pakistan ~ p {
+  background-color: green;
+} */
+
+/* div > p#smit {
+  background-color: aqua;
+}
+
+p#smit {
+  background-color: yellow;
+} */
+/* div > p#smit {
+  background-color: red;
+}
+p#smit {
+  background-color: blue;
+} */
+
+p#smit {
+  background-color: yellow;
+}
