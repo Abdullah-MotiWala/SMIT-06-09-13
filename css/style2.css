@@ -23,19 +23,35 @@ p#winner ~ p {
   color: yellow;
 } */
 
-p {
+/* p {
   background-color: lightgreen;
   background-color: #f1b709;
-  /* background-color: #000000; */
+  background-color: #000000;
   background-color: #000;
   background-color: #fff;
   /* background-color: #c4cbca; */
 
-  /* background-color: rgb(0, 0, 255); */
-  /* background-color: rgba(0, 0, 255, 0.5); */
+/* background-color: rgb(0, 0, 255); */
+/* background-color: rgba(0, 0, 255, 0.5); */
 
-  background-color: hsl(300, 76%, 72%);
-  /* opacity: 0.5; */
+/* background-color: hsl(300, 76%, 72%);
+  /* opacity: 0.5; 
   background-color: hsla(300, 76%, 72%, 0.5);
   color: #fff;
+} */
+
+p {
+  font-family: "Roboto", Georgia;
+  font-size: 48px;
+  font-weight: normal;
+  /* font-weight: 400; */
+  font-style: oblique;
+  text-transform: capitalize;
+  text-decoration: blink;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Roboto", Georgia;
+  color: #808080;
 }
