@@ -40,6 +40,10 @@ p#winner ~ p {
   color: #fff;
 } */
 
+p.shadow {
+  text-shadow: 4px 4px 24px #000;
+}
+
 p {
   font-family: "Roboto", Georgia;
   font-size: 48px;
@@ -51,7 +55,86 @@ p {
 }
 
 a {
+  /* text-decoration: none;
+  font-family: "Roboto", Georgia; */
+  /* color: #808080; */
+}
+a[target="_blank"] {
+  /* color: yellow; */
+}
+/* a[class~="active"] {
   text-decoration: none;
-  font-family: "Roboto", Georgia;
-  color: #808080;
+} */
+
+/* a[class*="active"] {
+  text-decoration: none;
+} */
+/* a[class$="s"] {
+  text-decoration: none;
+} */
+a[class^="act"] {
+  text-decoration: none;
+}
+
+p {
+  font-style: italic;
+  text-transform: lowercase;
+  line-height: 48px;
+  letter-spacing: -2px;
+  word-spacing: 0;
+  /* text-align: justify; */
+  text-indent: 24px;
+  /* letter-spacing: 12px;
+  word-spacing: 26px; */
+  color: green;
+}
+
+p span.capital {
+  text-transform: uppercase;
+}
+
+p.oblique {
+  font-style: oblique;
+}
+
+p::first-letter {
+  text-transform: uppercase;
+}
+p::first-line {
+  background-color: blue;
+}
+
+/* a:visited {
+  color: orange;
+} */
+
+/* a:link {
+  color: red;
+}
+
+a:hover {
+  color: green;
+} */
+
+input:focus {
+  outline: 1px solid blue;
+}
+button {
+  background-color: transparent;
+}
+
+button:active {
+  background-color: yellow;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+p:active {
+  color: brown;
+}
+
+input[required] {
+  border: 1px solid green;
 }
