@@ -1,17 +1,78 @@
-* {
+div,
+p {
   margin: 0;
   padding: 0;
 }
 
-div {
-  background-color: yellow;
-  /* width: 150px; */
-  width: 80vw;
+/* div { */
+/* background-color: yellow;
+  width: 150px; */
+/* width: 80vw;
   height: 50vh;
-}
+} */
 p {
   /* width: 150px; */
   /* width: 100vw; */
   width: 50%;
   background-color: red;
+}
+
+div.wrapper {
+  border-image: url("../../image.png") 11 11 11 11 stretch;
+  /* -webkit-border-image: url("../../image.png") 1 repeat; */
+  border-width: 6px;
+  /* border: 1px solid brown; */
+  background-color: aqua;
+  width: 50%;
+  min-width: 250px;
+  max-width: 300px;
+  height: 200px;
+  /* overflow: scroll; */
+  overflow-y: auto;
+  /* margin: 4em; */
+  /* margin-top: 4em;
+  margin-bottom: 4em;
+  margin-left: 2em;
+  margin-right: 2em; */
+  margin: 4em 2em auto 2em;
+  padding: 1em;
+  /* visibility: hidden; */
+  /* display: none; */
+  /* margin: 4em 2em; */
+  box-shadow: 0px 0px 50px 0px orange inset;
+}
+
+span.wrapper {
+  background-color: aqua;
+  width: 50vw;
+  /* width: 150px; */
+  display: inline-block;
+}
+
+div.parent {
+  height: 200px;
+  width: 200px;
+  border-radius: 6px;
+  background-color: blue;
+  overflow: hidden;
+}
+div.child {
+  height: 100%;
+  width: 100%;
+  background-color: aquamarine;
+}
+
+ul.navbar {
+  display: flex;
+  list-style-type: none;
+  background-color: #f29d13;
+  justify-content: space-around;
+}
+div.circle {
+  height: 200px;
+  width: 200px;
+  background-color: #f29d13;
+  /* border-radius: 100%; */
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
 }
