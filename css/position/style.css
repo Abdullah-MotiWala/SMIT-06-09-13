@@ -1,0 +1,42 @@
+/* div {
+  height: 10vh;
+  width: 10vw;
+}
+div.one {
+  background-color: aqua;
+  opacity: 0.2;
+} */
+/* div.two { */
+/* background-color: navy;
+  position: absolute; */
+/* top: 0px; */
+/* right: 45vw;
+  top: 45vh; */
+/* position: relative;
+  top: 12px;
+  right: 12px;
+  bottom: 12px;
+  left: 12px;
+  opacity: 0.5; */
+/* } */
+/* div.three {
+  background-color: green;
+} */
+
+div.parent {
+  height: 400px;
+  width: 400px;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  position: absolute;
+  bottom: 0;
+}
+
+div.child {
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  position: absolute;
+  right: 0px;
+}

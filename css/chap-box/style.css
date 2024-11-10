@@ -55,6 +55,10 @@ div.parent {
   border-radius: 6px;
   background-color: blue;
   overflow: hidden;
+  /* border: 1px solid black; */
+  border-width: 6px;
+  border-style: solid;
+  border-color: black;
 }
 div.child {
   height: 100%;
@@ -64,9 +68,17 @@ div.child {
 
 ul.navbar {
   display: flex;
-  list-style-type: none;
+  /* list-style-type: decimal-leading-zero;
+  list-style-position: inside; */
   background-color: #f29d13;
   justify-content: space-around;
+  list-style: decimal-leading-zero inside;
+  /* list-style-image: url("../../arrow.png"); */
+}
+ul.navbar > li {
+  background-color: #000;
+  color: #fff;
+  padding: 0.5em;
 }
 div.circle {
   height: 200px;
@@ -75,4 +87,20 @@ div.circle {
   /* border-radius: 100%; */
   border-top-right-radius: 50%;
   border-top-left-radius: 50%;
+}
+table {
+  cursor: url("../../arrow.png"), pointer;
+  border: 1px solid black;
+  /* border-collapse: seperate; */
+  /* border-collapse: collapse; */
+  border-spacing: 5px;
+  empty-cells: hide;
+}
+tr {
+  /* background-color: red; */
+  /* border: 1px solid orange; */
+}
+td {
+  border: 2px solid green;
+  background-color: blue;
 }
