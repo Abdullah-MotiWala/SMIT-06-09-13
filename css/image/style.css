@@ -1,0 +1,34 @@
+/* div {
+  height: 20vh;
+  background-color: red;
+  border: 1px solid black;
+} */
+
+.wrapper {
+  width: 200px;
+  height: auto;
+  border-width: 1px;
+  border-style: dashed;
+  border-color: #000;
+  color: #fff;
+  /* background-image: url("./image1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; */
+  /* background-size: 100% 100%; */
+  /* background: url("./images.jfif") no-repeat center;
+  background-size: cover;
+  background-attachment: scroll;
+  background-image: url("image1.jpg"); */
+  /* background: linear-gradient(blue, red); */
+}
+
+div.gradient {
+  height: 500px;
+  width: 500px;
+  background-color: red;
+  /* background: linear-gradient(180deg, red, blue 10%, green); */
+  /* background: radial-gradient(red , blue ); */
+  /* border: 50px solid; */
+  border-image: url(border.png) 50 round;
+}
