@@ -1,0 +1,59 @@
+p#pak {
+  color: #f88379;
+  background-color: #aa336a;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 900;
+  font-size: 2em;
+  /* text-transform: capitalize; */
+  text-transform: lowercase;
+  text-decoration: underline;
+  line-height: 2em;
+  letter-spacing: 1em;
+  word-spacing: 0.5em;
+}
+p#pak::first-letter {
+  text-transform: uppercase;
+  color: #fff;
+}
+a {
+  text-decoration: none;
+}
+
+p {
+  text-align: justify;
+  text-indent: 3em;
+}
+
+div#parent {
+  height: 500px;
+  width: 500px;
+  border-width: 2px;
+  border-style: solid;
+  border-top-left-radius: 4px;
+  position: relative;
+}
+
+div#child {
+  background-color: #aa336a;
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  bottom: 0;
+  z-index: 5;
+
+  /* display: inline-block; */
+  /* display: none; */
+  /* visibility: hidden; */
+}
+div#parent > p {
+  display: inline;
+}
+ul {
+  /* list-style-type: square;
+    list-style-position:inside ; */
+  list-style: square inside;
+}
+
+li {
+  background-color: #f88379;
+}

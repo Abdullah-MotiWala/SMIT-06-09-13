@@ -1,0 +1,20 @@
+ul {
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+  background-color: red;
+  /* column-gap: 4em;
+  row-gap: 4em; */
+  /* gap: 4em 4em; */
+  gap: 4em;
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column; */
+  justify-content: flex-start;
+  flex-direction: row-reverse;
+}
+
+li {
+  border: 1px solid yellow;
+  color: yellow;
+  font-weight: bold;
+}
