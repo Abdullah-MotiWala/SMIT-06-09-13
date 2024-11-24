@@ -3,13 +3,15 @@ ul {
   display: flex;
   list-style-type: none;
   background-color: red;
+  width: 50vw;
+  height: 20px;
   /* column-gap: 4em;
   row-gap: 4em; */
   /* gap: 4em 4em; */
   gap: 4em;
   /* flex-direction: row-reverse; */
   /* flex-direction: column; */
-  justify-content: flex-start;
+  justify-content: space-evenly;
   flex-direction: row-reverse;
 }
 
@@ -17,4 +19,59 @@ li {
   border: 1px solid yellow;
   color: yellow;
   font-weight: bold;
+}
+
+div.container > p {
+  width: 15vw;
+  border-style: solid;
+  border-width: 2px;
+}
+
+div.container {
+  /* height: 40em;
+  background-color: yellow; */
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap-reverse;
+  /* align-items: stretch; */
+  /* flex-wrap: wrap; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* flex-direction: row-reverse; */
+}
+
+div.container > .two {
+  /* flex-shrink: 2; */
+  /* flex-basis: 500px; */
+  /* width: 500px;
+  flex-basis: 0; */
+  /* order: -1; */
+  /* flex-grow: 1; */
+}
+div.container > p {
+  
+  /* flex-basis: 100px; */
+}
+div.container > .one {
+  /* width: 250px; */
+  flex-grow: 3;
+  /* flex-basis: 200px;  */
+
+
+  /* justify-self: end; */
+  /* flex-grow: 2; */
+  /* align-self: center; */
+}
+
+div.container-2 {
+  display: flex;
+  width: 100vw;
+  height: 10em;
+  background-color: blue;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: space-evenly;
+}
+div.container-2 p {
+  margin: 0;
 }
