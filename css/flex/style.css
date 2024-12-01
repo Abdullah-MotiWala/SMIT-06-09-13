@@ -21,7 +21,7 @@ li {
   font-weight: bold;
 }
 
-div.container > p {
+div.container>p {
   width: 15vw;
   border-style: solid;
   border-width: 2px;
@@ -40,7 +40,7 @@ div.container {
   /* flex-direction: row-reverse; */
 }
 
-div.container > .two {
+div.container>.two {
   /* flex-shrink: 2; */
   /* flex-basis: 500px; */
   /* width: 500px;
@@ -48,11 +48,13 @@ div.container > .two {
   /* order: -1; */
   /* flex-grow: 1; */
 }
-div.container > p {
-  
+
+div.container>p {
+
   /* flex-basis: 100px; */
 }
-div.container > .one {
+
+div.container>.one {
   /* width: 250px; */
   flex-grow: 3;
   /* flex-basis: 200px;  */
@@ -72,6 +74,36 @@ div.container-2 {
   align-items: center;
   justify-content: space-evenly;
 }
+
 div.container-2 p {
   margin: 0;
+}
+
+
+div#parent>div.child {
+  /* height: 100px;  */
+  width: 100px;
+  background-color: brown;
+  border: 1px solid #fff;
+  font-size: 3em;
+  color: #fff;
+}
+
+div#parent {
+  display: flex;
+  border: 1px solid green;
+  align-items: center;
+  /* justify-content: space-between; */
+  /* gap: 5px; */
+  /* flex-wrap: wrap-reverse; */
+  /* flex-direction: column-reverse; */
+}
+
+div#parent div.one {
+  order: 1;
+  flex-grow: 1;
+  align-self: self-start;
+}
+div#parent div.three {
+  flex-grow: 2;
 }

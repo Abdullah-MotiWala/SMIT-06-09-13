@@ -1,0 +1,52 @@
+/* div#wrapper {
+  background-color: yellow;
+  height: 500px;
+  width: 500px;
+  font-size: 60px;
+} */
+
+/* @media screen and (max-width: 600px) {
+  div#wrapper {
+    background-color: red;
+    font-size: 24px; */
+/* width: 200px; */
+/* }
+} */
+
+ul {
+  list-style: none;
+}
+ul > li {
+  display: inline-block;
+  margin: 12px;
+  background-color: gray;
+  font-size: 36px;
+}
+p {
+  display: none;
+}
+button {
+  display: none;
+}
+
+@media screen and (max-width: 780px) {
+  ul > li {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  ul > li {
+    display: block;
+    font-size: 24px;
+  }
+  button {
+    display: block;
+  }
+}
+
+@media print {
+  p {
+    display: block;
+  }
+}

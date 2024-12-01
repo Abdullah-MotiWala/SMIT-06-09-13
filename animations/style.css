@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes fareed {
+  from {
+    background-color: blue;
+  }
+
+  to {
+    background-color: red;
+  }
+}
+
+@keyframes adeel {
+  20% {
+    left: 0;
+    top: 0;
+  }
+
+  40% {
+    top: 0;
+    left: calc(100% - 100px);
+  }
+
+  60% {
+    top: calc(100% - 100px);
+    left: calc(100% - 100px);
+  }
+
+  80% {
+    top: calc(100% - 100px);
+    left: 0%;
+  }
+
+  100% {
+    left: 0;
+    top: 0;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    height: 500px;
+    width: 500px;
+  }
+  50% {
+    height: 400px;
+    width: 400px;
+    opacity: 0.8;
+  }
+  100% {
+    height: 500px;
+    width: 500px;
+    opacity: 1;
+  }
+}
+
+@keyframes walking {
+  /* 0% {
+    right: 0;
+  } */
+  100% {
+    right: 100%;
+  }
+}
+div {
+  /* height: 100px;
+  width: 100px;
+  position: absolute;
+  border: 1px solid; */
+  /* animation-duration: 5s; */
+  /* background-color: blue;  */
+  /* animation-name: fareed; */
+  /* animation-name: adeel;
+  animation-duration: 5000ms; */
+  /* animation-delay: 5000ms; */
+  /* animation-iteration-count: infinite; */
+}
+
+/* div#pulse {
+  background-color: #ff0000;
+  border-radius: 100%;
+  animation-name: pulse;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  box-shadow: 10px 10px 52px -15px rgba(0, 0, 0, 0.75);
+}
+
+div#parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+} */
+
+/* div#track-wrapper {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("./track.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+div.char {
+  position: absolute;
+  top: 5em;
+  right: 0;
+}
+
+div.char-1 {
+  animation-name: walking;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate-reverse;
+}
+div.char-1 img {
+  height: 80vh;
+  height: 5em;
+}
+div.char-2 {
+  animation-name: walking;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 3s;
+} */
+
+/* div#transform {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  transition: transform 5s;
+} */
+
+/* div#transform:hover {
+  transform: scale(5); */
+/* transform: translate(2em, 2em); */
+/* transform: rotate(45deg); */
+/* } */
