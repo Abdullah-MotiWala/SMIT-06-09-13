@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    background-color: rgba(234, 142, 142, 0.5);
+    height: 3em;
+    align-items: center;
+
+
+}
+
+nav li {
+    font-size: x-large;
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    padding: 4px;
+    border: 2px solid transparent;
+    transition: all 500ms ease-in-out;
+
+}
+
+nav li:hover {
+    border-color: #f00;
+    border-radius: 6px;
+    background-color: #fff;
+    transform: translateY(2px);
+
+
+
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    column-gap: 6em;
+}
+
+div#card {
+    width: 300px;
+    height: 400px;
+    background-color: rgba(234, 142, 142, 0.5);
+    margin-top: 100px;
+    margin-left: 20px;
+    border-radius: 4px;
+
+}
+
+div#card>div#heading-section {
+    width: inherit;
+    height: 20%;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+}
+
+div#R {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(203, 87, 29);
+    border-radius: 100%;
+    margin-left: 20px;
+}
+
+div#card div#second-head {
+    width: 180px;
+    height: 100%;
+    /* background-color: #f00; */
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 1.01em;
+    font-weight: 700;
+}
+
+div.icon {
+    width: 50px;
+    height: 50px;
+    font-size: 1.5em;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+div.icon:hover {
+    background-color: rgba(29, 100, 255, 0.2);
+}
+
+div#card div#image {
+    width: 100%;
+}
+
+div#image img {
+    width: 100%;
+}
+
+div#card div#content p {
+    text-align: justify;
+    padding: 1em;
+}
+
+div#card div#cta {
+    padding-left: 1em;
+    padding-right: 1em;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2em;
+}
+
+div#cta div.reacts {
+    display: flex;
+    column-gap: 1em;
+}

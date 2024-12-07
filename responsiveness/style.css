@@ -13,7 +13,7 @@
 /* }
 } */
 
-ul {
+/* ul {
   list-style: none;
 }
 ul > li {
@@ -50,3 +50,35 @@ button {
     display: block;
   }
 }
+
+div#res {
+  max-width: 500px;
+  min-width: 200px;
+  width: 500px;
+  background-color: blue;
+} */
+
+
+div {
+  background-color: red;
+  font-size: 4em;
+  width: 500px;
+  height: 500px;
+}
+
+
+/* @media screen and (min-width:500px) and (max-width:720px)  {
+  div {
+    background-color: blue;
+    width: 250px;
+    font-size: 2em;
+  }
+} */
+
+/* @media screen and (500px < width < 700px) {
+  div {
+    background-color: blue;
+    width: 250px;
+    font-size: 2em;
+  }
+} */
