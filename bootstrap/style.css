@@ -1,0 +1,30 @@
+/* .background {
+    background-color: pink !important;
+} */
+
+
+div#responsive {
+    background-color: red;
+    height: 400px;
+    width: 400px;
+}
+
+/* @media screen and (width > 700px){
+    div#responsive {
+        background-color: blue;
+        height: 500px;
+        width: 500px;
+    }
+} */
+
+/* @media screen and (width <1000px) {
+    div#responsive {
+        background-color: red;
+        height: 400px;
+        width: 400px;
+    }
+} */
+
+.parent {
+    height: 100vh;
+}
